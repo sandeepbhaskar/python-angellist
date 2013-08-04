@@ -9,9 +9,9 @@ API Reference URL: https://api.angel.co/1/
 
 Usage:
 
-from angellist import AngelList 
-access_token = 'GIVE YOUR ACCESS TOKEN HERE'
-angelapi = AngelList(access_token)
+from angellist import AngelList \n 
+access_token = 'GIVE YOUR ACCESS TOKEN HERE' /n
+angelapi = AngelList(access_token) \n
 
 Eg 1: To use Search API:
 angelapi.search({'method':'GET', 'query':'search-string'})
