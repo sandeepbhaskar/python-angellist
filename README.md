@@ -28,4 +28,4 @@ Eg 4: To delete a particular status update with its id
 Please note that status__updates in API doc is replaced as status__updates
 
 Eg 5: To get startup roles
-#angelapi.startup_roles({'method':'GET', 'v':'1'})
+#angelapi.startup__roles({'method':'GET', 'v':'1'})
